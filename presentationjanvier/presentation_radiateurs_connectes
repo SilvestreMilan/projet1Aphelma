@@ -1,0 +1,45 @@
+               Première approche du chauffage connecté sur le thème domotique et connectivité
+
+
+  D’après le Larousse en ligne, la domotique est “ [l’] ensemble des techniques visant à intégrer à l'habitat tous les automatismes en matière 
+de sécurité, de gestion de l'énergie, de communication, etc “ (1). Le chauffage connecté s’inscrit pleinement dans cette démarche puisque les 
+constructeurs promettent  “de s’adapter automatiquement à votre rythme de vie et de réaliser jusqu’à 45% d’économies” (2).
+Ce document à pour but de faire un tour d’horizon non exhaustif sur les principales technologies utilisée dans ce domaine. Il détaillera les
+cas d’un thermostat connecté Somfy (3), d’une vanne thermostatique connectée Netatmo (4) et d’un radiateur connecté Atlantic (2).
+
+   Le thermostat connecté Somfy vise à remplacer les thermostats manuels classiques afin de pouvoir piloter la température globale du logement.
+ Il est composé de 3 pièces: le thermostat, un récepteur et une passerelle. Le récepteur est relié en filaire à la chaudière et reçoit ses 
+ instructions du thermostat par radio à la fréquence 868 Mhz. La passerelle relais les instruction au thermostat qu’elle a reçue d’un 
+ smartphone par wifi. L’avantage de cette solution par rapport aux 2 autre est son coût (159 euros le tout) mais elle ne permet pas un réglage 
+ du chauffage pièce par pièce, le relais nécessite une prise et le thermostat fonctionne sur piles.
+
+   La vanne thermostatique connectée Netatmo remplace les vannes thermostatiques permettant à chaque radiateur de communiquer avec un thermostat
+ central. L’équipement est le même que précédemment avec en plus les têtes de radiateur. L’avantage de cette solution est qu’elle permet de 
+ réguler la température pièce par pièce. Cependant le relais est toujours sur prise et le thermostat sur piles. Une autre différence importante
+ est le prix : il faut compter environ 80 euros par vanne connectée.
+
+   La dernière solution est celle du radiateur connecté, ces radiateur électrique sont des hauts de gamme qui intègre directement des dispositifs
+ semblables aux têtes de chauffage et qui nécessitent un intermédiaire(dédié ou de type google home) pour communiquer avec un smartphone à 
+ distance. Comme les radiateurs sont électrique, ils n’ont plus à être reliés à une chaudière, le prix est quant à lui sur devis (chez 
+ Atlantic) et peut varier de 400 à 1200 euros pièce (5).
+
+   On remarque que toutes ces solutions proposent une adaptation propre aux rythme de vie de l’habitant grâce à des programmes entrés
+ manuellement ou déterminer de manière automatique (ex: la géolocalisation du smartphone permet d’activer ou de désactiver le mode “absent”
+ des radiateurs (2), les capteurs détectent les fenêtres ouvertes…).
+
+   L’alimentation de ces produits connectés se fait par pile ou sur le secteur, une piste de travail pourrait d’être de trouver une solution
+ moins contraignante.
+
+   La communication avec l’organe central se fait par onde radio 868 MHz (2) (3) (4) plutôt que 433MHz un premier travail pourrait être de 
+ comprendre pourquoi le choix de cette fréquence qui a priori pénètre moins bien les nombreux obstacles présents dans une maison (6).
+
+
+
+Références:
+
+ https://www.larousse.fr/dictionnaires/francais/domotique/26402 (24/11/19)
+https://www.atlantic.fr/Chauffer-le-logement/Chauffage-electrique/Radiateur-connecte/Radiateurs-Design/Irisium site commerciale d’atlantic, radiateurs connectés (24/11/19)
+(Référence 2401499) https://boutique.somfy.fr/thermostat-connecte-radio.html site commerciale, thermostat connecté radio (24/11/19)
+https://www.netatmo.com/fr-fr/energy/additional-valve/specifications site commerciale , valve thermostatique connectée (24/11/19)
+https://www.quelleenergie.fr/economies-energie/radiateur-electrique-inertie/prix-economies quelleenregie.fr, prix économie (24/11/19)
+https://www.abavala.com/protocoles-domotiques-etre-sur-la-meme-frequence-ne-veut-pas-dire-que-l-on-peut-se-comprendre/ abavala, protocoles domotiques (24/11/19)
