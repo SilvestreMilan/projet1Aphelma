@@ -1,1 +1,6 @@
-Résumé sur les technologies de communication pour la domotique
+echo "# Présentation Janvier" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/SilvestreMilan/technologies-de-communication.git
+git push -u origin master
