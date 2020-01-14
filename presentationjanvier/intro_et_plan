@@ -1,1 +1,6 @@
 But se renseigner sur les techno déjà existantes, faire un cahier des charges, chiffrer le budget.
+
+
+axes de recherche:    - capteur et communication
+                      - centrale qui récupère les données, les traites, et pilote un circuit pour l'alimentation des chauffages
+                      - circuit de l'alimentation des chauffages (à eau, électriques,... ?)
